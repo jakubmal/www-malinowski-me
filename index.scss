@@ -1,0 +1,63 @@
+$color-black: #000;
+$color-white: #fff;
+$color-red: #f05152;
+$color-red-white: mix($color-red, $color-white, 60%);
+
+body {
+  background: $color-black;
+  color: $color-white;
+
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  font-size: 16px;
+}
+
+a {
+  color: $color-red-white;
+  text-decoration: none;
+
+  transition: 0.2s all ease-out;
+  &:hover {
+    color: $color-red;
+  }
+}
+
+h1, h2 {
+  font-weight: 300;
+}
+
+.name {
+  padding-top: 100px;
+  margin: 0;
+
+  font-size: 2.5rem;
+}
+.title {
+  margin: 0;
+  padding: 0;
+  padding-bottom: 1.5rem;
+
+  font-size: 2rem;
+}
+
+.contact {
+  display: block;
+
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+
+.interests {
+  padding-top: 3rem;
+  margin: 0;
+
+  font-size: 1.8rem;
+  font-weight: 300;
+}
+
+.interest {
+  color: $color-white;
+
+  font-size: 0.9rem;
+  font-weight: 700;
+}
